@@ -4,3 +4,9 @@ Hi {{session['name']}}, you are logged in.
 </h1>
 
 <a href = "/logout"> Logout </a>
+
+<form action="/food" method="POST">
+	<input type="fav_food" name="fav_food" placeholder="food">
+<input type="submit" value="submit">
+</form>
+
